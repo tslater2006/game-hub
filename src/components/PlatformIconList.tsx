@@ -36,7 +36,7 @@ const PlatformIconList = ({ platforms }: PlatformIconListProps) => {
       {platforms.map((platform) => (
         <Icon
           as={iconMap[platform.slug]}
-          key={platform.slug}
+          key={platform.id}
           marginRight="5px"
           color="gray.500"
         />
